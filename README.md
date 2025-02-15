@@ -9,6 +9,12 @@ Este chatbot foi desenvolvido para ajudar uma empresa e/ou um pesquisador a subm
 - Explica os benefícios e requisitos para participar da PIPE.
 - Inclui um easter egg escondido que inicia um jogo da cobra (Snake).
 
+## Como Baixar o Chatbot
+
+1. **Baixe os arquivos importantes**:
+   - Baixe em sua máquina os arquivos `main.py`, `chatbot.py` e `intents.json`.
+   - Baixe todas as dependências necessárias como `nltk, tensorflow e keras`.
+
 ## Como Usar
 
 1. **Iniciar o Chatbot**:
