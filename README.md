@@ -12,7 +12,7 @@ Este chatbot foi desenvolvido para ajudar uma empresa e/ou um pesquisador a subm
 ## Como Usar
 
 1. **Iniciar o Chatbot**:
-   - Execute o script `main.py` para iniciar o chatbot.
+   - Execute o script `main.py` para iniciar o chatbot (certifique-se de ter todas as extensões instaladas).
    - No terminal, você verá a mensagem de boas-vindas: `Bem vindo ao Chatbot`.
 
 2. **Fazer Perguntas**:
@@ -48,3 +48,4 @@ Para submeter um projeto para a PIPE, você deve seguir as diretrizes disponíve
 
 posso lhe ajudar com algo a mais?
 > Easter Egg
+Uma partida de Snake que acaba quando o jogador perde.
