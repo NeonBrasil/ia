@@ -16,7 +16,7 @@ myChatBot.createModel()
 print("Bem vindo ao Chatbot")
 
 
-pergunta = input("como posso te ajudar?")
+pergunta = input("\ncomo posso te ajudar?")
 resposta, intencao = myChatBot.chatbot_response(pergunta)
 print(resposta + "   ["+intencao[0]['intent']+"]")
 
