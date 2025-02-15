@@ -2,7 +2,7 @@
   "intents": [
     {
       "tag": "saudacao",
-      "patterns": ["Ola", "Opa", "Oi", "tudo bem", "como vai", "bom dia", "boa tarde", "boa noite"],
+      "patterns": ["Ola", "Opa", "Oi", "tudo bem", "como vai", "bom dia", "boa tarde", "boa noite", "bão?","bao"],
       "responses": ["Oi", "Olá", "Tudo bem?", "Como posso ajudar?"]
     },
     {
@@ -13,7 +13,7 @@
     {
       "tag": "data_prova",
       "patterns": ["Quando sera a prova?", "A prova será em que dia?", "vai ter exame?", "qual a data do exame?", "quando é o teste?"],
-      "responses": ["no dia 26", "A prova será no dia 26", "O exame está marcado para o dia 26"]
+      "responses": ["A prova será no dia 26", "O exame está marcado para o dia 26"]
     },
     {
       "tag": "pipe_fapesp",
@@ -22,6 +22,15 @@
         "O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas (PIPE) apoia a execução de pesquisa científica e/ou tecnológica em pequenas empresas no Estado de São Paulo.",
         "A PIPE tem como objetivo apoiar a inovação tecnológica em pequenas empresas, contribuindo para o desenvolvimento econômico e social do Estado de São Paulo.",
         "A PIPE é um programa da FAPESP que visa apoiar a pesquisa científica e tecnológica em pequenas empresas."
+      ]
+    },
+    {
+      "tag": "fapesp",
+      "patterns": ["O que é a FAPESP?", "Fale sobre a FAPESP", "O que é a FAPESP?", "Informações sobre a FAPESP", "Explique a FAPESP", "O que significa FAPESP?"],
+      "responses": [
+        "A FAPESP, também conhecida como, Fundação de Amparo à Pesquisa do Estado de São Paulo, trata-se de uma fundação pública, financiada pelos contribuintes do Estado de São Paulo, com a missão de apoiar projetos de pesquisa em instituições de ensino superior e pesquisa, abrangendo todas as áreas do conhecimento.",
+        "A Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP) é uma das principais agências públicas brasileiras de fomento à pesquisa científica e tecnológica do país.",
+        "A FAPESP (Fundação de Amparo à Pesquisa do Estado de São Paulo) é uma das principais agências de fomento à pesquisa científica e tecnológica no Brasil. Fundada em 1962, a FAPESP tem como objetivo apoiar o desenvolvimento científico, tecnológico e de inovação no estado de São Paulo, financiando projetos de pesquisa em diversas áreas do conhecimento."
       ]
     },
     {
