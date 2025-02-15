@@ -2,41 +2,62 @@
   "intents": [
     {
       "tag": "saudacao",
-      "patterns": ["Ola", "Opa", "Oi", "tudo bem", "como vai"],
-      "responses": ["Oi", "Olá"]
+      "patterns": ["Ola", "Opa", "Oi", "tudo bem", "como vai", "bom dia", "boa tarde", "boa noite"],
+      "responses": ["Oi", "Olá", "Tudo bem?", "Como posso ajudar?"]
     },
     {
       "tag": "despedida",
-      "patterns": ["valeu", "tchau", "Obrigado", "fui", "beleza"],
-      "responses": ["Até breve", "Falou"]
+      "patterns": ["valeu", "tchau", "Obrigado", "fui", "beleza", "até logo", "até mais", "adeus"],
+      "responses": ["Até breve", "Falou", "Tchau, até a próxima!", "Foi um prazer ajudar!"]
     },
     {
       "tag": "data_prova",
-      "patterns": ["Quando sera a prova?", "A prova será em que dia?", "vai ter exame?"],
-      "responses": ["no dia 26"]
+      "patterns": ["Quando sera a prova?", "A prova será em que dia?", "vai ter exame?", "qual a data do exame?", "quando é o teste?"],
+      "responses": ["no dia 26", "A prova será no dia 26", "O exame está marcado para o dia 26"]
     },
     {
       "tag": "pipe_fapesp",
-      "patterns": ["O que é a PIPE?", "Fale sobre a PIPE", "O que é a PIPE FAPESP?", "Informações sobre a PIPE"],
+      "patterns": ["O que é a PIPE?", "Fale sobre a PIPE", "O que é a PIPE FAPESP?", "Informações sobre a PIPE", "Explique a PIPE", "O que significa PIPE?"],
       "responses": [
         "O Programa FAPESP Pesquisa Inovativa em Pequenas Empresas (PIPE) apoia a execução de pesquisa científica e/ou tecnológica em pequenas empresas no Estado de São Paulo.",
-        "A PIPE tem como objetivo apoiar a inovação tecnológica em pequenas empresas, contribuindo para o desenvolvimento econômico e social do Estado de São Paulo."
+        "A PIPE tem como objetivo apoiar a inovação tecnológica em pequenas empresas, contribuindo para o desenvolvimento econômico e social do Estado de São Paulo.",
+        "A PIPE é um programa da FAPESP que visa apoiar a pesquisa científica e tecnológica em pequenas empresas."
       ]
     },
     {
       "tag": "submissao_pipe",
-      "patterns": ["Como submeter um projeto para a PIPE?", "Como participar da PIPE?", "Como enviar um projeto para a PIPE?"],
+      "patterns": ["Como submeter um projeto para a PIPE?", "Como participar da PIPE?", "Como enviar um projeto para a PIPE?", "Quais são os passos para submeter um projeto PIPE?", "Como faço para participar da PIPE?"],
       "responses": [
         "Para submeter um projeto para a PIPE, você deve seguir as diretrizes disponíveis no site da FAPESP e preencher o formulário de submissão online.",
-        "A submissão de projetos para a PIPE é feita através do sistema de submissão online da FAPESP, seguindo as orientações disponíveis no site oficial."
+        "A submissão de projetos para a PIPE é feita através do sistema de submissão online da FAPESP, seguindo as orientações disponíveis no site oficial.",
+        "Você pode submeter um projeto para a PIPE seguindo as instruções no site da FAPESP e preenchendo o formulário de submissão online."
       ]
     },
     {
       "tag": "beneficios_pipe",
-      "patterns": ["Quais são os benefícios da PIPE?", "O que a PIPE oferece?", "Vantagens de participar da PIPE"],
+      "patterns": ["Quais são os benefícios da PIPE?", "O que a PIPE oferece?", "Vantagens de participar da PIPE", "Quais são as vantagens da PIPE?", "O que ganho participando da PIPE?"],
       "responses": [
         "A PIPE oferece apoio financeiro para a execução de pesquisa científica e tecnológica, além de contribuir para o desenvolvimento de novos produtos, processos e serviços.",
-        "Participar da PIPE permite acesso a recursos financeiros para inovação, além de suporte técnico e científico para o desenvolvimento de projetos inovadores."
+        "Participar da PIPE permite acesso a recursos financeiros para inovação, além de suporte técnico e científico para o desenvolvimento de projetos inovadores.",
+        "Os benefícios da PIPE incluem apoio financeiro, suporte técnico e científico, e oportunidades de desenvolvimento de novos produtos e serviços."
+      ]
+    },
+    {
+      "tag": "requisitos_pipe",
+      "patterns": ["Quais são os requisitos para participar da PIPE?", "O que é necessário para submeter um projeto para a PIPE?", "Quais são os critérios para a PIPE?", "O que preciso para participar da PIPE?"],
+      "responses": [
+        "Os requisitos para participar da PIPE incluem ser uma pequena empresa no Estado de São Paulo e ter um projeto de pesquisa científica ou tecnológica.",
+        "Para submeter um projeto para a PIPE, você deve ser uma pequena empresa no Estado de São Paulo e seguir as diretrizes da FAPESP.",
+        "Os critérios para a PIPE incluem a inovação tecnológica do projeto e o potencial de desenvolvimento econômico e social."
+      ]
+    },
+    {
+      "tag": "prazo_submissao",
+      "patterns": ["Qual é o prazo para submissão de projetos para a PIPE?", "Até quando posso submeter um projeto para a PIPE?", "Qual é a data limite para submissão de projetos para a PIPE?", "Quando termina o prazo para submissão de projetos para a PIPE?"],
+      "responses": [
+        "Os prazos para submissão de projetos para a PIPE são divulgados no site da FAPESP.",
+        "Você pode verificar os prazos para submissão de projetos para a PIPE no site oficial da FAPESP.",
+        "Os prazos para submissão de projetos variam e são atualizados no site da FAPESP."
       ]
     }
   ]
