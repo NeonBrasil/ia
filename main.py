@@ -61,6 +61,11 @@ def start_snake_game():
         if key == curses.KEY_RIGHT:
             new_head[1] += 1
 
+        # Verificar se a nova posição está dentro dos limites
+        if new_head[0] >= sh or new_head[0] < 0 or new_head[1] >= sw or new_head[1] < 0:
+            curses.endwin()
+            return score
+
         snake.insert(0, new_head)
 
         if snake[0] == food:
