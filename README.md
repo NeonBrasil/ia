@@ -1,3 +1,12 @@
+# Membros
+* Cayque Cicarelli - 22.221.005-6
+
+* Bruna Paz - 22.121.020-6
+
+* Matheus Miranda - 22.22.0017-2
+
+***
+
 # Chatbot PIPE FAPESP
 
 Este chatbot foi desenvolvido para ajudar uma empresa e/ou um pesquisador a submeter um projeto PIPE (Pesquisa Inovativa em Pequenas Empresas) e auxiliar um usuário com suas dúvidas.
